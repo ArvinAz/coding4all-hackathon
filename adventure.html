@@ -11,7 +11,7 @@
 
 <html>
 <link rel="stylesheet" href="./css/thisCss.css">
-<script src="js/adventure.js"></script>
+
 
 <head>
     <title>Halloween Adventure</title>
@@ -38,33 +38,26 @@
         <div id="content-wrap">
 
 
-            <body style="background-color:rgb(109, 12, 12);text-align:center;font-size:30px;">
+            <div style="background-color:rgb(109, 12, 12);text-align:center;font-size:30px;">
 
                 <h1 style="font-family:arial;color:rgb(18, 18, 176);font-size:40px;">Spooky Halloween Event</h1>
-                <img src="./img/mansion.jpeg" id="image">
+                <img src="./img/mansion.jpeg" alt ="Spooky mansion" id="image">
                 <p class="result">
-                    You are starving and dying to find shelter. You then encounter a mansion, but it looks haunted. Press Button 1 to enter or Button 2 for Nah</p>
-                <br>
-                <p id="button-one"></p>
-                <br><button type="button" onclick="buttonOne()" class="button option1">Button1</button>
-                <button type="button" onclick="buttonTwo()" class="button option2">Button2</button>
-                <br>
+                    You are starving and dying to find shelter. You then encounter a mansion, but it looks haunted. Press Button 1 to enter or Button 2 for Nah
                 </p>
-
-            </body>
-
-
-
-
-
-
-
-
-
-
-
-
-
+                
+                <br>
+                <button class="button-option1">Button1</button>
+                <button class="button-option2">Button2</button>
+                <script>
+                    let button = document.getElementsByClassName("button-option1");
+                    console.log(button);
+                </script>
+                
+                </p>
+                <script src="js/adventure.js"></script>
+            </div>
+            
 
 
 
@@ -99,6 +92,7 @@
             </div>
         </footer>
     </div>
+    
 </body>
 
 </html>
