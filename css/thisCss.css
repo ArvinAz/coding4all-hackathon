@@ -46,7 +46,7 @@ div {
     font-family: "Times New Roman", Times, Sans;
 }
 
-.button {
+button {
     background-color: rgb(84, 66, 90);
     border: 1px solid #eee;
     font-size: 20px;
@@ -64,7 +64,7 @@ div {
     font-size: 50px;
 }
 
-.button:hover {
+button:hover {
     background-color: rgb(63, 47, 68);
 }
 
